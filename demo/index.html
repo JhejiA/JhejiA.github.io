@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research demo videos by Hejia Jiang">
+  <title>Hejia Jiang — Research Demos</title>
+  <style>
+    :root{--text:#171717;--muted:#6b6b6b;--line:#e8e8e8;--bg:#fff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6}
+    .wrap{width:min(980px,calc(100% - 40px));margin:0 auto}
+    header{padding:56px 0 34px;border-bottom:1px solid var(--line)}
+    h1{font-size:42px;line-height:1.1;margin:0 0 8px;letter-spacing:-.03em}
+    header p{margin:0;color:var(--muted);font-size:18px}
+    main{padding:42px 0 64px}
+    section{margin-bottom:54px}
+    h2{font-size:27px;margin:0 0 8px;letter-spacing:-.02em}
+    .desc{margin:0 0 16px;color:var(--muted)}
+    .video{overflow:hidden;border-radius:12px;background:#000;box-shadow:0 10px 32px rgba(0,0,0,.08)}
+    video{display:block;width:100%;height:auto;max-height:72vh;background:#000}
+    footer{border-top:1px solid var(--line);padding:22px 0 34px;color:var(--muted);font-size:14px}
+    @media(max-width:640px){.wrap{width:calc(100% - 24px)}header{padding-top:38px}h1{font-size:34px}main{padding-top:32px}section{margin-bottom:42px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Hejia Jiang</h1>
+      <p>Research Demos</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Interactive Driving Training for Older Adults</h2>
+      <p class="desc">Interactive driving and concurrent visual decision-making task.</p>
+      <div class="video">
+        <video controls preload="metadata" playsinline>
+          <source src="older-adults-demo.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+    </section>
+
+    <section>
+      <h2>Spatially Anchored AR for People with Low Vision</h2>
+      <p class="desc">AR-based product search assistance for people with low vision.</p>
+      <div class="video">
+        <video controls preload="metadata" playsinline>
+          <source src="low-vision-demo.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap">Hejia Jiang · Research Demos</div></footer>
+</body>
+</html>
